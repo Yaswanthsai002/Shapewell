@@ -266,11 +266,7 @@ def gen_frames():
     #pose_video = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, model_complexity=2)
 
     # Initialize the VideoCapture object to read from the webcam.
-<<<<<<< HEAD
-    camera_video = cv2.VideoCapture(-1)
-=======
     camera_video = cv2.VideoCapture(0)
->>>>>>> 6a2158f (First Commit)
     camera_video.set(3,1280)
     camera_video.set(4,960)
 
