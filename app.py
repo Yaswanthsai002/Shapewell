@@ -52,11 +52,7 @@ def detectPose(image, pose, display=True):
     landmarks = []
     
     # Check if any landmarks are detected.
-<<<<<<< HEAD
-    if results.pose_landmarks and results.pose_landmarks.landmark[28].visibility > 0.6 and results.pose_landmarks.landmark[27].visibility > 0.6 and results.pose_landmarks.landmark[15].visibility>0.6 and results.pose_landmarks.landmark[16].visibility > 0.6:
-=======
     if results.pose_landmarks :
->>>>>>> 6a2158f (First Commit)
     
         # Draw Pose landmarks on the output image.
         #mp_drawing.draw_landmarks(output_image, results.pose_landmarks,mp_pose.POSE_CONNECTIONS)
