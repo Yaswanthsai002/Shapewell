@@ -1,0 +1,130 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1048px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: "Akaya Telivigala";
+  letter-spacing: 2px;
+  width: 269px;
+  margin: 51px auto 0;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 157px;
+  height: 87px;
+  margin: 135px auto 0 287px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: "Akaya Telivigala";
+  margin: -80px 662px 0 255px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 487px;
+  height: 450px;
+  object-position: 44.27% 50%;
+  margin: 24px auto 0 59px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  background-image: linear-gradient(#72efe9, #136460);
+  margin: -302px 224px 0 auto;
+  padding: 21px 60px 22px 59px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-size: 1.5rem;
+  background-image: none;
+  margin: 315px auto 60px;
+  padding: 8px 33px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 356px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    color: rgb(0, 0, 0) !important;
+    margin-top: -19px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -100px;
+    margin-right: 558px;
+    margin-left: 158px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 72px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 92px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 273px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 448px;
+    margin-left: 48px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 205px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 316px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-left: 53px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 912px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 129px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-left: 183px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 116px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 314px;
+    margin-left: 0;
+  }
+}

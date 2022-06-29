@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+build:
+  docker:
+=======
+build:
+  docker:
+>>>>>>> 6a2158f (First Commit)
+    web: Dockerfile
