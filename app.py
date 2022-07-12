@@ -52,12 +52,7 @@ def detectPose(image, pose, display=True):
     landmarks = []
     
     # Check if any landmarks are detected.
-<<<<<<< HEAD
-    if results.pose_landmarks and results.pose_landmarks.landmark[28].visibility > 0.6 and results.pose_landmarks.landmark[27].visibility > 0.6 and results.pose_landmarks.landmark[15].visibility>0.6 and results.pose_landmarks.landmark[16].visibility > 0.6:
-=======
     if results.pose_landmarks :
->>>>>>> 6a2158f (First Commit)
-    
         # Draw Pose landmarks on the output image.
         #mp_drawing.draw_landmarks(output_image, results.pose_landmarks,mp_pose.POSE_CONNECTIONS)
         
@@ -270,11 +265,7 @@ def gen_frames():
     #pose_video = mp_pose.Pose(static_image_mode=False, min_detection_confidence=0.5, model_complexity=2)
 
     # Initialize the VideoCapture object to read from the webcam.
-<<<<<<< HEAD
-    camera_video = cv2.VideoCapture(-1)
-=======
     camera_video = cv2.VideoCapture(0)
->>>>>>> 6a2158f (First Commit)
     camera_video.set(3,1280)
     camera_video.set(4,960)
 
